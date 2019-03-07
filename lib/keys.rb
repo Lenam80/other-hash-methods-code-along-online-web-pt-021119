@@ -15,4 +15,5 @@ def get_the_keys(groceries)
     meat: ["chicken", "steak", "salmon"],
     grains: ["rice", "pasta"]
   }
-end 
+  expect(result).to eq([:dairy, :vegetable, :meat, :grains])
+end
