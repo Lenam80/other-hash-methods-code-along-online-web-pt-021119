@@ -9,5 +9,16 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  #code your solution here!
+  groceries = {
+    dairy: ["milk", "yogurt", "cheese"],
+    vegetable: ["carrots", "broccoli", "cucumbers"],
+    meat: ["chicken", "steak", "salmon"],
+    grains: ["rice", "pasta"]
+  }
+  expect(result).to eq([:dairy, :vegetable, :meat, :grains])
+end
+
+
+def get_the_keys(dairy)
+  dairy = {dairy}
 end
