@@ -14,7 +14,7 @@ def get_the_keys(groceries)
   groceries.values
 end
 
-def get_the_keys (groceries)
+def get_the_keys (dairy)
   groceries = {fruit: "Banana", vegetable: "Broccoli", dessert: "Cookie"}
 
 groceries.keys
