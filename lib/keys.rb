@@ -17,3 +17,8 @@ def get_the_keys(groceries)
   }
   expect(result).to eq([:dairy, :vegetable, :meat, :grains])
 end
+
+
+def get_the_keys(dairy)
+  dairy = {dairy}
+end
